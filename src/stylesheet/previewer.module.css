@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-vista-previa {
+    margin: 20px auto;
+    width: 600px;
+    border: 1px solid black;
+    background-color: red;
+
+    border-radius: 4px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 7px;
+}
+
+.btn-interaccion {
+    cursor: pointer;
+}
+
+.vista-previa {
+    height: 100px;
+}
+
+.expandir-vista-previa {
+    height: 80vh;
+}
+
+.contraer-vista-previa {
+    height: 200px;
+}
+
+.contenedor-renderizador {
+    background-color: green;
+    overflow-y: auto;
+}
+
+.ocultar-vista-previa {
+    display: none;
+}
